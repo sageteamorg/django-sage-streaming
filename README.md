@@ -11,6 +11,7 @@
 ![Test](https://github.com/sageteam-org/django-sage-painless/blob/develop/docs/images/tag_test.png?raw=true "a title")
 
 - [Project Detail](#project-detail)
+- [installation](#installation)
 - [Get Started](#getting-started)
 - [Admin](#admin)
 - [Settings](#settings)
@@ -21,7 +22,7 @@
 You can find all technologies we used in our project into these files:
 * Version: 1.0.0
 * Frameworks:
-  - Django 3.2.4
+  - Django 3.2.5
 * Libraries:
   - Django rest framework 3.12.4
 * Language: Python 3.9.4
