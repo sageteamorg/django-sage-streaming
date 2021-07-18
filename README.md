@@ -4,11 +4,11 @@
 ##### The Latest version of [django-sage-streaming](https://django-sage-streaming.readthedocs.io/) documentation
 
 ![SageTeam](https://github.com/sageteam-org/django-sage-painless/blob/develop/docs/images/tag_sage.png?raw=true "SageTeam")
-![PyPI release](https://github.com/sageteam-org/django-sage-painless/blob/develop/docs/images/tag_pypi_0.0.8.png?raw=true "django-sage-streaming")
-![Supported Python versions](https://github.com/sageteam-org/django-sage-painless/blob/develop/docs/images/tag_python-02.png?raw=true "django-sage-streaming")
-![Supported Django versions](https://github.com/sageteam-org/django-sage-painless/blob/develop/docs/images/tag_django.png?raw=true "django-sage-streaming")
-![Documentation](https://github.com/sageteam-org/django-sage-painless/blob/develop/docs/images/tag_docs.png?raw=true "django-sage-streaming")
-![Test](https://github.com/sageteam-org/django-sage-painless/blob/develop/docs/images/tag_test.png?raw=true "django-sage-streaming")
+
+![PyPI release](https://img.shields.io/pypi/v/django-sage-streaming "django-sage-streaming")
+![Supported Python versions](https://img.shields.io/pypi/pyversions/django-sage-streaming "django-sage-streaming")
+![Supported Django versions](https://img.shields.io/pypi/djversions/django-sage-streaming "django-sage-streaming")
+![Documentation](https://img.shields.io/readthedocs/django-sage-streaming "django-sage-streaming")
 
 - [Project Detail](#project-detail)
 - [installation](#installation)
