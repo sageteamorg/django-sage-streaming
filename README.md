@@ -1,7 +1,14 @@
-# Django Sage Streaming
-#### django-sage-streaming is a package based on Django Web Framework & Django Rest Framework for video streaming.
+# Django SAGE Streaming
 
-##### The Latest version of [django-sage-streaming](https://django-sage-streaming.readthedocs.io/) documentation
+django-sage-streaming is a package based on Django Web Framework & Django Rest Framework for video streaming. We made this package in Django so that everyone can easily stream videos.
+
+## What is streaming?
+
+Streaming is a method of viewing a video or listening to audio content without actually downloading the media files. Streaming performance can be improved, and buffering time is reduced if the files' owner uses a CDN. Streaming is real-time, and it's more efficient than downloading media files. If a video file is downloaded, a copy of the entire file is saved onto a device's hard drive, and the video cannot play until the entire file finishes downloading. If it's streamed instead, the browser plays the video without actually copying and saving it. The video loads a little bit instead of the entire file loading at once and the information that the browser loads is not saved locally.
+
+Think of the difference between a lake and a stream: Both contain water, and a stream may contain just as much water as a lake; the difference is that with a stream, the water is not all in the same place at the same time. A downloaded video file is more like a lake in that it takes up a lot of hard drive space (and it takes a long time to move a lake). Streaming video is more like a stream or a river in that the video's data is continuously, rapidly flowing to the user's browser.
+
+The Latest version of [django-sage-streaming](https://django-sage-streaming.readthedocs.io/) documentation
 
 ![SageTeam](https://github.com/sageteam-org/django-sage-painless/blob/develop/docs/images/tag_sage.png?raw=true "SageTeam")
 
