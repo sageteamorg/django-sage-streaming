@@ -8,7 +8,7 @@ def file_iterator(file_name, request_index, chunk_size=8192, offset=0, length=No
         while True:
             bytes_length = chunk_size if remaining is None else min(remaining, chunk_size)
             data = f.read(bytes_length)
-            if not (data or request_index.is_current()):
+            if not (data and request_index.is_current()):
                 break
             if remaining:
                 remaining -= len(data)
