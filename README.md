@@ -136,8 +136,3 @@ you just need to add stream url as `src` in `video` tag
     <source src="http://localhost:8000/api/stream/?path=<path_to_video>" type="video/mp4">
 </video>
 ```
-
-## Team
-| [<img src="https://github.com/sageteam-org/django-sage-painless/blob/develop/docs/images/sepehr.jpeg?raw=true" width="230px" height="230px" alt="Sepehr Akbarzadeh">](https://github.com/sepehr-akbarzadeh) | [<img src="https://github.com/sageteam-org/django-sage-painless/blob/develop/docs/images/mehran.png?raw=true" width="225px" height="340px" alt="Mehran Rahmanzadeh">](https://github.com/mehran-rahmanzadeh) |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Sepehr Akbarazadeh](https://github.com/sepehr-akbarzadeh)                                                                                                             | [Mehran Rahmanzadeh](https://github.com/mehran-rahmanzadeh)                                                                                                       |
