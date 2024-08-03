@@ -27,7 +27,7 @@ def get_content_range_header(first_byte, last_byte, size):
     return 'bytes %s-%s/%s' % (first_byte, last_byte, size)
 
 
-def get_streaming_response(path, range_header, range_re, max_load_volume):
+def get_streaming_response(path, range_header, range_re, max_load_volume, request_index):
     """
     get range_header and match bytes position in the file
     generate StreamingHttpResponse
@@ -46,6 +46,7 @@ def get_streaming_response(path, range_header, range_re, max_load_volume):
         resp = StreamingHttpResponse(
             file_iterator(
                 path,
+                request_index,
                 offset=first_byte,
                 length=length
             ),
