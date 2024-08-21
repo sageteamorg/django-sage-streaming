@@ -27,7 +27,8 @@ class VideoStreamAPIView(APIView):
         video_path = request.GET.get(path_key)
         range_header = request.META.get('HTTP_RANGE', '').strip()
         range_re = re.compile(range_re_pattern, re.I)
-        video_path = video_path.replace(media_url, media_dir)
+        if not (media_url == '/' or media_dir == ''):
+            video_path = video_path.replace(media_url, media_dir)
         video_path = os.path.join(django_settings.BASE_DIR, video_path)
 
         # log
